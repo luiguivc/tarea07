@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+#principal{
+    
+}
+#principal img{
+    width: 100%;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);    
+    min-height: 100%;
+    z-index:-100;
+}
+#central{
+    width:600px;    
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin:10px;
+    color:white;
+    font-weight: bold;
+}
+.titulo{
+    font-size: 90px;
+    color: rgb(31, 31, 246);
+    font-family: "Rammetto One", sans-serif;
+    
+}
+
+
+/* Presentación */
+
+.presentacion{
+    font-size: 1.2em;
+    padding:20px;
+    font-family: "Permanent Marker", cursive;
+}
+
+
+.menu{
+
+    padding: 20px;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 50px;
+}
+.menu li{
+    text-decoration: none;
+     
+    
+}
+.menu li a{
+    text-decoration: none;
+    color:white;
+    font-size: 22px;
+    font-family: "Rammetto One", sans-serif;
+    
+}
+
+.menu li a:hover {
+    color: red; 
+}
+
+
+
+.redes {
+    display: flex; 
+    justify-content: center; 
+    list-style: none; 
+    padding: 30px; 
+    gap: 50px; 
+}
+
+.redes li i {
+    font-size: 35px; 
+    color: white; 
+    transition: color 0.3s; 
+}
+
+.redes li i:hover {
+    color: blue; 
+}
+
+
